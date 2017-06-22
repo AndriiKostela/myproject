@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.875em;
+    line-height: 1.6em;
+}
+.conteiner{
+font-family: 'Kumar One', cursive;
+  
+} 
+
+.footer{
+    font-family: 'Kumar One', cursive;}
+.logo{
+    font-family: 'Arizonia', cursive;
+
+    padding-left: 3%;
+    margin-top: 15px;
+    font-size: 3rem;
+    
+}
+.real{
+    font-family: 'Yellowtail', cursive;
+    padding-left: 2%;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+.header{
+    background-image: url(../pic/city2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+}
+.navigation li {display: inline;}
+.navigation{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 500px;
+  text-align: right
+}
