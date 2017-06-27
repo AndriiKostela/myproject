@@ -1,46 +1,87 @@
 * {
     margin: 0;
 }
-.body {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-size: 0.875em;
-    line-height: 1.6em;
-}
-.conteiner{
-font-family: 'Kumar One', cursive;
-  
-} 
 
-.footer{
-    font-family: 'Kumar One', cursive;}
-.logo{
+#aboutme {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kumar One', cursive;
+    margin-top: 10px;
+}
+
+#rent {
+    font-family: 'Kumar One', cursive;
+}
+
+#sale {
+    font-family: 'Kumar One', cursive;
+}
+
+#feedback {
+    font-family: 'Kumar One', cursive;
+}
+
+#contactus {
+    font-family: 'Kumar One', cursive;
+}
+
+.logo {
     font-family: 'Arizonia', cursive;
-
-    padding-left: 3%;
-    margin-top: 15px;
     font-size: 3rem;
-    
 }
-.real{
+
+.real {
     font-family: 'Yellowtail', cursive;
     padding-left: 2%;
     margin-top: 15px;
     margin-left: 20px;
-    
 }
-.header{
+
+header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
     background-size: cover;
-    height: 200px;
+    height: 350px;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.navigation li {display: inline;}
-.navigation{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: 500px;
-  text-align: right
+
+ul.navbar {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
 }
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-family: 'Kumar One', cursive;
+}
+
+ul.navbar li a:hover {
+    background-color: rgba(71, 71, 71, 0.25);
+}
+
+@media screen and (max-width: 600px) {
+    ul.navbar {
+        flex-direction: column;
+    }
+}
+
+
+#myphoto {
+    display: block;
+    min-width: 40%;
+}
+
+#textabout {
+    font-family: 'Damion', cursive;
+    font-size: 28px;
+    display: block;
+}
+
