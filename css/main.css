@@ -1,54 +1,22 @@
 * {
     margin: 0;
 }
-
-#aboutme {
+.title {
     display: flex;
     justify-content: center;
     font-family: 'Kumar One', cursive;
     margin-top: 10px;
 }
-
-#rent {
-    display: flex;
-    justify-content: center;
-    font-family: 'Kumar One', cursive;
-    margin-top: 10px;
-}
-
-#sale {
-    display: flex;
-    justify-content: center;
-    font-family: 'Kumar One', cursive;
-    margin-top: 10px;
-}
-
-#feedback {
-    display: flex;
-    justify-content: center;
-    font-family: 'Kumar One', cursive;
-    margin-top: 10px;
-}
-
-#contactus {
-    display: flex;
-    justify-content: center;
-    font-family: 'Kumar One', cursive;
-    margin-top: 10px;
-}
-
 .logo {
     font-family: 'Arizonia', cursive;
     font-size: 3rem;
 }
-
 .real {
     font-family: 'Yellowtail', cursive;
     padding-left: 2%;
     margin-top: 15px;
     margin-left: 20px;
 }
-
 header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
@@ -58,14 +26,12 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
-
 ul.navbar {
     display: flex;
     list-style-type: none;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
 }
-
 ul.navbar li a {
     display: block;
     color: black;
@@ -74,55 +40,61 @@ ul.navbar li a {
     text-decoration: none;
     font-family: 'Kumar One', cursive;
 }
-
 ul.navbar li a:hover {
     background-color: rgba(71, 71, 71, 0.25);
 }
-
 @media screen and (max-width: 600px) {
     ul.navbar {
         flex-direction: column;
     }
 }
-
-#myphoto {
+.about {
+    background-color: rgb( 249, 249, 249);
     display: flex;
-    width: 30%;
-    margin-top: 15px;
-    float:left;
+    font-family: 'Kumar One', cursive;
+    justify-content: flex-start;
+}
+.picabout {
+    width: 350px;
+    align-self: flex-start;
+}
+.textabout {
+    align-self: flex-start;
+    margin-left: 50px;
+}
+.static {
+    align-self: center;
+}
+@media screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+    }
+}
+.rentpic{
+    display: flex;
+    
     
 }
-
-#textabout {
-    font-family: 'Damion', cursive;
-    font-size: 28px;
-    display: flex;
-    margin-top: 10px;
-    padding: 10px;
+.salepic{
+display: flex;
+  justify-content:space-around;
+    
 }
-.clear{
-    clear: both;
-}
-
-.static{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+.feedback{
     font-family: 'Kumar One', cursive;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
 }
-
     footer {
-    background-image: url(../pic/city.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 100px;
-    display: flex;
-    align-items: flex-end;
-    opacity: 0.8;
+        background-image: url(../pic/city.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100px;
+        display: flex;
+        align-items: flex-end;
+        opacity: 0.8;
     }
-.textfoot {
-
-    font-family: 'Kumar One', cursive;
-}
-
-
+    .textfoot {
+        font-family: 'Kumar One', cursive;
+    }
