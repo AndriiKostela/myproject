@@ -9,13 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
     <header>
-        <h1 class="logo">ANDRII KOSTELA <br>real estate agent</h1>
-
+        <h1 class="logo">ANDRII KOSTELA <br> real estate agent</h1>
         <nav>
             <ul class="navbar">
                 <li><a href="#aboutme">About me</a></li>
@@ -26,20 +24,16 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <!-- begin about me -->
         <section>
-            <h2 class="title"> ABOUT ME</h2>
+            <h2 id="aboutme" class="title"> ABOUT ME</h2>
             <div class="about">
-
                 <img class="picabout" src="pic/andriikostela.jpg" alt="Andrii Kostela real eastate agent" id="myphoto">
-
                 <div class="textabout">
                     I have many years of proceedings real estate transactions (purchase, sale, lease) allows me to save you the most time and effort, and offer you the best property.The purpose of my work - practical and effective assistance in solving all issues related
-                    to real estate. </div>
-                <div class="static">
-                    112 LEASED 48 SOLD
+                    to real estate.
+                    <h4> 112 LEASED 48 SOLD </h4>
                 </div>
             </div>
         </section>
@@ -47,63 +41,65 @@
 
         <!-- begin rent -->
         <section>
-            <h2 class="title">RENT</h2>
+            <h2 class="title" id="rent">RENT</h2>
             <div class="rentpic">
-            <img class="sliderrent" src="pic/flat1.jpg" alt="Apartment studio">
-            <img class="sliderrent" src="pic/flat6.jpg" alt="Sunny salon">
-            <img class="sliderrent" src="pic/flat3.jpeg" alt="Yellow studio apartment">
-</div>
-
+                <img class="sliderrent" src="pic/flat1.jpg" alt="Apartment studio">
+                <img class="sliderrent" src="pic/flat6.jpg" alt="Sunny salon">
+                <img class="sliderrent" src="pic/flat3.jpeg" alt="Yellow studio apartment">
+            </div>
         </section>
         <!-- end rent -->
 
         <!-- begin sale -->
         <section>
-            <h2 class="title">SALE</h2>
+            <h2 class="title" id="sale">SALE</h2>
             <div class="salepic">
-            <img class="slidersale" src="pic/flat4.jpg" alt="Two level apartment">
-            <img class="slidersale"src="pic/flat5.jpg" alt="Great kitchen studio">
-            <img class="slidersale"src="pic/house.jpg" alt="Separate large house" >
+                <img class="slidersale" src="pic/flat4.jpg" alt="Two level apartment">
+                <img class="slidersale" src="pic/flat5.jpg" alt="Great kitchen studio">
+                <img class="slidersale" src="pic/house.jpg" alt="Separate large house">
             </div>
-
         </section>
         <!-- end sale -->
 
         <!-- begin feedback -->
         <section>
-            <h2 class="title">FEEDBACK</h2>
+            <h2 class="title" id="feedback">FEEDBACK</h2>
             <div class="feedback">
-               <div class="Jhon"> If you need to quickly find quality residential apartment in Lviv for long term, then I absolutely recommend you to contact Andtii Kostela.</div>
-       <div class="Michel"> Highly recommended. Excelente Broker! Lo recomiendo!!!!</div>
-        <div class="Monica">Very professional...</div>
-        </div>
+                <div class="jhon"><img src="pic/jon.png" alt="Jhon profile photo">
+                    <h3>Jhon Savka</h3>I recommend you to contact Andtii Kostela.</div>
+                <div class="michel"> <img src="pic/michel.png" alt="Michel profile photo">
+                    <h3>Michel Sikora</h3> Very professional...</div>
+                <div class="monica"><img src="pic/monica.png" alt="Monica profile photo">
+                    <h3>Monica Marc</h3>Excelente Broker! Lo recomiendo!!.</div>
+            </div>
         </section>
         <!-- end feedback -->
     </main>
-
     <!-- begin contactus -->
     <section>
-        <h2 class="title">CONTACT US</h2>
-
-        <div>
-            <form action="https://formspree.io/Kostela1992@gmail.com.com" method="POST">
-                <input type="text" name="name" value="Your name"><br>
-                <input type="tel" name="Phone number" value="Your phone"><br>
-                <input type="email" name="Email" value=Email><br>
-                <input type="text" name="message" value=Message><br>
-                <input type="submit" value="Send">
+        <h2 class="title" id="contactus">CONTACT US</h2>
+        <div class="contactus">
+            <form>
+                <div class="formcontact" action="https://formspree.io/Kostela1992@gmail.com.com" method="POST">
+                    <input type="text" name="name" placeholder="Your name"><br>
+                    <input type="tel" name="Phone" placeholder="Your phone"><br>
+                    <input type="email" name="Email" placeholder="Your Email"><br>
+                    <input type="text" name="message" placeholder="Message"><br>
+                    <button type="submit">SEND</button>
+                </div>
             </form>
-            <ul>
+            <ul class="contactinform">
                 <li>+380635200287</li>
                 <li>Kostela1992@gmail.com</li>
             </ul>
-            <img src="pic/phone.png" alt="phone">
-            <img src="pic/whats.png" alt="whatsapp">
-            <img src="pic/viber.png" alt="viber">
+            <div class="phonelogo">
+                <img src="pic/phone.png" alt="phone">
+                <img src="pic/whatsapp.png" alt="whatsapp">
+                <img src="pic/gmail.ico" alt="gmail">
+            </div>
         </div>
     </section>
     <footer>
-
         <p class="textfoot"> © 2017 ANDRII KOSTELA</p>
     </footer>
     <!-- end contactus -->
