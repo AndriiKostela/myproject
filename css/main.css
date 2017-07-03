@@ -12,20 +12,14 @@
 }
 .logo {
     font-family: 'Arizonia', cursive;
-    font-size: 2.5rem;
-}
-.real {
-    font-family: 'Yellowtail', cursive;
-    padding-left: 2%;
-    margin-top: 15px;
-    margin-left: 20px;
+    font-size: 2rem;
 }
 
 header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
     background-size: cover;
-    height: 350px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
