@@ -14,7 +14,6 @@
     font-family: 'Arizonia', cursive;
     font-size: 2rem;
 }
-
 header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
@@ -24,7 +23,6 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
-
 ul.navbar {
     display: flex;
     list-style-type: none;
@@ -106,26 +104,31 @@ ul.navbar li a:hover {
     justify-content: space-between;
     background-color: rgb( 249, 249, 249);
 }
+
 .jhon,
 .michel,
 .monica {
     font-size: 0.8rem;
 }
+
 .jhon img {
     width: 60px;
     height: 60px;
     margin-left: 25px;
 }
+
 .michel img {
     width: 60px;
     height: 60px;
     margin-left: 45px;
 }
+
 .monica img {
     width: 60px;
     height: 60px;
     margin-left: 35px;
 }
+
 footer {
     background-image: url(../pic/city.jpg);
     background-position: center center;
@@ -134,19 +137,23 @@ footer {
     display: flex;
     align-items: flex-end;
 }
+
 .textfoot {
     font-family: 'Arizonia', cursive;
     align-self: flex-end;
     margin-right: 700px;
     color: rgb(249, 249, 249);
 }
+
 .phonelogo img {
     width: 60px;
     height: 60px;
 }
+
 .contactinform {
     overflow: hidden;
 }
+
 input {
     border-color: black;
     border-width: 2px;
@@ -155,6 +162,7 @@ input {
     height: 25px;
     font-family: 'Kumar One', cursive;
 }
+
 button {
     border-color: black;
     border-width: 2px;
