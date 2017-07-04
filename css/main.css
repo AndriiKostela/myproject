@@ -12,29 +12,35 @@
 }
 .logo {
     font-family: 'Arizonia', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-right: 40px;
+   
+    
+    
 }
 header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
     background-size: cover;
-    height: 220px;
+    height: 250px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content:space-between;
+    align-items:flex-start;
+ 
 }
 ul.navbar {
     display: flex;
     list-style-type: none;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
+    
 }
 
 ul.navbar li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
     font-family: 'Kumar One', cursive;
 }
@@ -170,12 +176,13 @@ input {
     font-family: 'Kumar One', cursive;
 }
 
-button {
-    border-color: black;
-    border-width: 2px;
-    margin-top: 5px;
-    margin-left: 105px;
+#btn-send {
+    margin-top: 15px;
+    margin-left: 90px;
     font-family: 'Kumar One', cursive;
+}
+#comment{
+    height: 40px;
 }
 
 @media screen and (max-width: 750px) {

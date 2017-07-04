@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/png" href="pic/favicon.png">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -40,8 +38,8 @@
                     <div class="col-4">
                         <span class="spincrement">48</span>LEASED
                         <span class="spincrement">122</span>SOLD
-
                     </div>
+                </div>
                 </div>
         </section>
         <!-- end about me -->
@@ -156,12 +154,12 @@
     <section>
         <h2 class="title" id="contactus">CONTACT US</h2>
         <div class="contactus">
-            <form class="formcontact" action="https://formspree.io/Kostela1992@gmail.com" method="POST">
-                <input type="text" name="name" placeholder="Your name"><br>
-                <input type="tel" name="Phone" placeholder="Your phone"><br>
-                <input type="email" name="Email" placeholder="Your Email"><br>
-                <input type="text" name="message" placeholder="Message"><br>
-                <button type="submit">SEND</button>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Your name"><br>
+                <input type="tel" name="phone" id="e-mail" placeholder="Your phone"><br>
+                <input type="email" name="email" id="phone" placeholder="Your Email"><br>
+                <input type="text" name="message" id="comment" placeholder="Message"><br>
+                <button type="submit" class="btn btn-primary" id="btn-send" value="send">SEND</button>
             </form>
             <ul class="contactinform">
                 <li>+380635200287</li>
@@ -170,7 +168,7 @@
             <div class="phonelogo">
                 <img src="pic/phone.png" alt="phone">
                 <img src="pic/whatsapp.png" alt="whatsapp">
-                <img src="pic/gmail.ico" alt="gmail">
+                <img src="pic/gmail.png" alt="gmail">
             </div>
         </div>
     </section>
@@ -182,9 +180,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/jquery.spincrement.js"></script>
     <script src="js/jquery.spincrement.min.js"></script>
-
-    <script src="/js/index.js"></script>
-
+    <script src="js/form.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
