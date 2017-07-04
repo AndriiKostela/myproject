@@ -183,3 +183,19 @@ button {
         flex-direction: column;
     }
 }
+.carousel-inner img{
+    height: 350px;
+    width: 500px;
+    margin: 0 auto;
+}
+              @media screen and (max-width: 750px) {
+    #carousel-rent {
+        flex-direction: column;
+    }         }
+    @media screen and (max-width: 750px) {
+    #carousel-sale {
+        flex-direction: column;
+    }         
+    }    
+                
+                        
