@@ -53,11 +53,11 @@ ul.navbar li a:hover {
     background-color: rgb( 249, 249, 249);
     display: flex;
     font-family: 'Kumar One', cursive;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .picabout {
-    max-width: 350px;
+    max-width: 300px;
     align-self: flex-start;
     border-radius: 50%;
 }
@@ -67,11 +67,11 @@ ul.navbar li a:hover {
     margin-left: 20px;
 }
 
-.textabout h4 {
-    margin-top: 90px;
-    margin-left: 150px;
-    font-size: 3rem;
+.textabout h3 {
+    font-size: 2rem;
+    margin-left: 80px
 }
+
 
 @media screen and (max-width: 750px) {
     .about {
@@ -83,6 +83,13 @@ ul.navbar li a:hover {
     display: flex;
     background-color: rgb( 249, 249, 249);
     justify-content: center;
+}
+.col-4{
+    font-family: 'Kumar One', cursive;
+    font-size: 2.5rem;
+    margin-left: 40px;
+    color:rgb(155, 23, 9);
+    
 }
 
 .salepic {
