@@ -1,4 +1,4 @@
-* {
+html {
     margin: 0 auto;
     max-width: 980px;
     padding: 5px;
@@ -121,8 +121,9 @@ ul.navbar li a:hover {
 .jhon,
 .michel,
 .monica {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
+
 
 .jhon img {
     width: 60px;
