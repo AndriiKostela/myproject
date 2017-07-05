@@ -30,7 +30,7 @@
       decimalPlaces: null,
       decimalPoint: '.',
       thousandSeparator: ',',
-      duration: 1000, // ms; TOTAL length animation
+      duration: 2000, // ms; TOTAL length animation
       leeway: 50, // percent of duraion
       easing: 'spincrementEasing',
       fade: true,

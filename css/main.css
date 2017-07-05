@@ -1,4 +1,4 @@
-html {
+* {
     margin: 0 auto;
     max-width: 980px;
     padding: 5px;
@@ -10,30 +10,28 @@ html {
     font-family: 'Kumar One', cursive;
     margin-top: 10px;
 }
+
 .logo {
     font-family: 'Arizonia', cursive;
     font-size: 3rem;
     margin-right: 40px;
-   
-    
-    
 }
+
 header {
     background-image: url(../pic/city2.jpg);
     background-position: center center;
     background-size: cover;
     height: 250px;
     display: flex;
-    justify-content:space-between;
-    align-items:flex-start;
- 
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
 ul.navbar {
     display: flex;
     list-style-type: none;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
-    
 }
 
 ul.navbar li a {
@@ -78,7 +76,6 @@ ul.navbar li a:hover {
     margin-left: 80px
 }
 
-
 @media screen and (max-width: 750px) {
     .about {
         flex-direction: column;
@@ -90,12 +87,12 @@ ul.navbar li a:hover {
     background-color: rgb( 249, 249, 249);
     justify-content: center;
 }
-.col-4{
+
+.col-4 {
     font-family: 'Kumar One', cursive;
     font-size: 2.5rem;
     margin-left: 40px;
-    color:rgb(155, 23, 9);
-    
+    color: rgb(155, 23, 9);
 }
 
 .salepic {
@@ -123,7 +120,6 @@ ul.navbar li a:hover {
 .monica {
     font-size: 1rem;
 }
-
 
 .jhon img {
     width: 60px;
@@ -182,7 +178,8 @@ input {
     margin-left: 90px;
     font-family: 'Kumar One', cursive;
 }
-#comment{
+
+#comment {
     height: 40px;
 }
 
@@ -191,19 +188,21 @@ input {
         flex-direction: column;
     }
 }
-.carousel-inner img{
+
+.carousel-inner img {
     height: 350px;
     width: 500px;
     margin: 0 auto;
 }
-              @media screen and (max-width: 750px) {
+
+@media screen and (max-width: 750px) {
     #carousel-rent {
         flex-direction: column;
-    }         }
-    @media screen and (max-width: 750px) {
+    }
+}
+
+@media screen and (max-width: 750px) {
     #carousel-sale {
         flex-direction: column;
-    }         
-    }    
-                
-                        
+    }
+}
